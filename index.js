@@ -15,6 +15,11 @@ function getValues() {
   message = document.getElementById("message").value;
 }
 
+function clearInputs(){
+  document.getElementById("phone").value = "";
+  document.getElementById("message").value = "";
+}
+
 function sendMessage() {
   getValues();
   verifyPhoneNumber(phone);

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Wasap-You can send WhatsApp messages without saving the contact
+    </title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h2 id="logo">WaSap</h2>
+      <h1>Send Whatsapp messages without saving contacts</h1>
+
+      <label for="phone">Phone number</label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="Phone number (Eg.+233XXXXXXXXX)"
+        required
+      />
+      <label for="message">Message</label>
+      <textarea name="message" id="message" required></textarea>
+      <button id="send-btn" type="submit" onclick="sendMessage()">Send</button>
+
+      <p>
+        Here, you can quickly send WhatsApp messages without the hassle of
+        saving contacts first. Just enter the phone number and your message,
+        then hit send. It’s fast, easy, and perfect when you want to reach out
+        instantly. Enjoy staying connected!
+      </p>
+    </main>
+  </body>
+</html>

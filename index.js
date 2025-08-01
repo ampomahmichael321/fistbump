@@ -27,4 +27,5 @@ function sendMessage() {
     let url = `https://wa.me/${phone}?text=${message}`;
     window.open(url);
   }
+  clearInputs();
 }

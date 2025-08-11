@@ -10,18 +10,18 @@
   font-variation-settings: "wdth" 100;
 }
 body {
-  display: grid;
+  display: flex;
   height: 100vh;
-  place-items: center;
-  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 main {
-  border-radius: 15px;
-  margin: 1%;
-  padding: 3%;
-  display: grid;
-  height: 100vh;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
+  padding: 2em;
+  border-radius: 15px;
 }
 
 label,
@@ -30,6 +30,10 @@ button,
 textarea {
   display: block;
   resize: none;
+}
+
+label {
+  width: 90%;
 }
 
 textarea {
@@ -56,28 +60,27 @@ button {
 
 h1 {
   margin-bottom: 1em;
+  width: 90%;
+}
+.logo-container {
+  width: 90%;
 }
 
-.logo{
+.logo {
   width: 10em;
 }
 
 p {
+  width: 90%;
   border-top: solid 0.3px rgb(111, 110, 110);
   border-bottom: solid 0.3px rgb(111, 110, 110);
   padding: 1em;
 }
 
-
 @media (min-width: 900px) {
   main {
-    margin: 3.5%
-    width: 50%;
+    margin: 3.5%;
+    width: 60%;
     box-shadow: 5px 5px 15px 5px rgba(216, 215, 215, 0.519);
   }
 }
-
-
-
-
-

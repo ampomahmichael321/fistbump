@@ -21,7 +21,6 @@ main {
   padding: 3%;
   display: grid;
   height: 100vh;
-  place-items: center;
   align-items: center;
 }
 
@@ -77,6 +76,7 @@ p {
     box-shadow: 5px 5px 15px 5px rgba(216, 215, 215, 0.519);
   }
 }
+
 
 
 

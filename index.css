@@ -60,7 +60,7 @@ h1 {
 }
 
 .logo{
-  width: 100px;
+  width: 10em;
 }
 
 p {
@@ -78,4 +78,5 @@ p {
     box-shadow: 5px 5px 15px 5px rgba(216, 215, 215, 0.519);
   }
 }
+
 

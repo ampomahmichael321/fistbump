@@ -57,6 +57,7 @@ h2 {
 }
 h1 {
   margin-bottom: 1em;
+  color: rgb(38, 96, 69);
 }
 
 .logo{
@@ -69,14 +70,13 @@ p {
   padding: 1em;
 }
 
-#logo {
-  color: rgb(38, 96, 69);
-}
+
 @media (min-width: 900px) {
   main {
     width: 60%;
     box-shadow: 5px 5px 15px 5px rgba(216, 215, 215, 0.519);
   }
 }
+
 
 

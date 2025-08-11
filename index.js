@@ -4,7 +4,7 @@ let conditionsMet = false;
 
 function verifyPhoneNumber(str) {
   if (!str.startsWith("+")) {
-    alert("Please Enter a valid phone number");
+    alert("Please Enter a valid phone number. Phone number should be in internatonal format. Eg. +233XXXXXXXXXX");
   } else if (str.startsWith("+")) {
     conditionsMet = true;
   }
@@ -29,3 +29,4 @@ function sendMessage() {
   }
   clearInputs();
 }
+

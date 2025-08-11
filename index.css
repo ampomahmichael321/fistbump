@@ -59,6 +59,10 @@ h1 {
   margin-bottom: 1em;
 }
 
+.logo{
+  width: 100px;
+}
+
 p {
   border-top: solid 0.3px rgb(111, 110, 110);
   border-bottom: solid 0.3px rgb(111, 110, 110);
@@ -74,3 +78,4 @@ p {
     box-shadow: 5px 5px 15px 5px rgba(216, 215, 215, 0.519);
   }
 }
+

@@ -17,8 +17,12 @@ body {
 }
 main {
   border-radius: 15px;
-  margin: 3.5%;
+  margin: 1%;
   padding: 3%;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  align-items: center;
 }
 
 label,
@@ -51,13 +55,8 @@ button {
   color: white;
 }
 
-h2 {
-  text-align: left;
-  margin-bottom: 1.5em;
-}
 h1 {
   margin-bottom: 1em;
-  color: rgb(38, 96, 69);
 }
 
 .logo{
@@ -73,10 +72,12 @@ p {
 
 @media (min-width: 900px) {
   main {
-    width: 60%;
+    margin: 3.5%
+    width: 50%;
     box-shadow: 5px 5px 15px 5px rgba(216, 215, 215, 0.519);
   }
 }
+
 
 
 

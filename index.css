@@ -80,7 +80,8 @@ p {
 @media (min-width: 900px) {
   main {
     margin: 3.5%;
-    width: 60%;
+    width: 50%;
     box-shadow: 5px 5px 15px 5px rgba(216, 215, 215, 0.519);
   }
 }
+
